@@ -19,10 +19,10 @@ namespace HomeWorkTheme02ConsoleApp
             double mathScores = 50;
             double physicsScores = 30;
 
-            Console.WriteLine($"/t ФИО: {fullName}; /t Email: {email}; /t Возраст: {age}; " +
-                $"/t Баллы по программированию: {programmingScores}; /t Баллы по математике: {mathScores}; /t Баллы по физике: {physicsScores}");
+            Console.WriteLine($"\nФИО: {fullName}; \nEmail: {email}; \nВозраст: {age}; " +
+                $"\nБаллы по программированию: {programmingScores}; \nБаллы по математике: {mathScores}; \nБаллы по физике: {physicsScores}.");
 
-            
+            Console.ReadLine();
         }
     }
 }
