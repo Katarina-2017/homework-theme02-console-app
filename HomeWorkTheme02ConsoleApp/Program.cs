@@ -28,6 +28,10 @@ namespace HomeWorkTheme02ConsoleApp
 
             amountOfScores = programmingScores + mathScores + physicsScores;
 
+            double averageScore;
+
+            averageScore = amountOfScores / 3;
+
 
         }
     }
