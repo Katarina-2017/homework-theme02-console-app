@@ -19,7 +19,7 @@ namespace HomeWorkTheme02ConsoleApp
             double mathScores = 50;
             double physicsScores = 30;
 
-            Console.WriteLine($"\nФИО: {fullName}; \nEmail: {email}; \nВозраст: {age}; " +
+            Console.WriteLine($"ФИО: {fullName}; \nEmail: {email}; \nВозраст: {age}; " +
                 $"\nБаллы по программированию: {programmingScores}; \nБаллы по математике: {mathScores}; \nБаллы по физике: {physicsScores}.");
 
             Console.ReadKey();
@@ -32,7 +32,7 @@ namespace HomeWorkTheme02ConsoleApp
 
             averageScore = amountOfScores / 3;
 
-
+            Console.WriteLine($"Сумма баллов по всем предметам:{amountOfScores}; \nСреднее арифметическое баллов: {averageScore}.");
         }
     }
 }
