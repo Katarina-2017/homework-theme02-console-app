@@ -13,6 +13,13 @@ namespace HomeWorkTheme02ConsoleApp
             string fullName = "Галимова Екатерина Валерьевна";
             string email = "katzhukova@gmail.com";
 
+            byte age = 33;
+
+            double programmingScores = 100;
+            double mathScores = 50;
+            double physicsScores = 30;
+
+            
         }
     }
 }
