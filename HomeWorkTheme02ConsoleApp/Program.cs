@@ -10,6 +10,8 @@ namespace HomeWorkTheme02ConsoleApp
     {
         static void Main(string[] args)
         {
+            string FullName = "Галимова Екатерина Валерьевна";
+
         }
     }
 }
