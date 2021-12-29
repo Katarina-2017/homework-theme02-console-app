@@ -15,7 +15,7 @@ namespace HomeWorkTheme02ConsoleApp
 
             byte age = 33;
 
-            double programmingScores = 100;
+            double programmingScores = 90;
             double mathScores = 50;
             double physicsScores = 30;
 
@@ -32,7 +32,9 @@ namespace HomeWorkTheme02ConsoleApp
 
             averageScore = amountOfScores / 3;
 
-            Console.WriteLine($"Сумма баллов по всем предметам:{amountOfScores}; \nСреднее арифметическое баллов: {averageScore}.");
+            Console.WriteLine($"\nСумма баллов по всем предметам:{amountOfScores}; \nСреднее арифметическое баллов: {averageScore:#.##}.");
+
+            Console.ReadKey();
         }
     }
 }
