@@ -22,7 +22,13 @@ namespace HomeWorkTheme02ConsoleApp
             Console.WriteLine($"\nФИО: {fullName}; \nEmail: {email}; \nВозраст: {age}; " +
                 $"\nБаллы по программированию: {programmingScores}; \nБаллы по математике: {mathScores}; \nБаллы по физике: {physicsScores}.");
 
-            Console.ReadLine();
+            Console.ReadKey();
+
+            double amountOfScores;
+
+            amountOfScores = programmingScores + mathScores + physicsScores;
+
+
         }
     }
 }
