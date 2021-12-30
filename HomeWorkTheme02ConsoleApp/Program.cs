@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,10 +30,10 @@ namespace HomeWorkTheme02ConsoleApp
             double mathScores = 50;
             double physicsScores = 30;
 
-            Console.WriteLine($"ФИО: {fullName}; \nEmail: {email}; \nВозраст: {age}; " +
+            WriteLine($"ФИО: {fullName}; \nEmail: {email}; \nВозраст: {age}; " +
                 $"\nБаллы по программированию: {programmingScores}; \nБаллы по математике: {mathScores}; \nБаллы по физике: {physicsScores}."); //форматированный вывод на экран
 
-            Console.ReadKey(); //задержка экрана
+            ReadKey(); //задержка экрана
 
             double amountOfScores; //создание переменной для хранения суммы баллов, как постоянные числа с плавающей точкой
 
@@ -42,9 +43,9 @@ namespace HomeWorkTheme02ConsoleApp
 
             averageScore = amountOfScores / 3; //нахождение среднего балла 
 
-            Console.WriteLine($"\nСумма баллов по всем предметам:{amountOfScores}; \nСреднее арифметическое баллов: {averageScore:#.##}."); //форматированный вывод на экран
+            WriteLine($"\nСумма баллов по всем предметам:{amountOfScores}; \nСреднее арифметическое баллов: {averageScore:#.##}."); //форматированный вывод на экран
 
-            Console.ReadKey(); //задержка экрана
+            ReadKey(); //задержка экрана
         }
     }
 }
